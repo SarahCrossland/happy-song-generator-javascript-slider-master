@@ -1,0 +1,57 @@
+/* Full page gradient*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+Body {
+  height: 100vh;
+  background: rgb(189, 255, 181);
+  background: linear-gradient(0deg, rgba(189, 255, 181, 1) 0%, rgba(252, 210, 134, 1) 100%);
+  font-family: 'Indie Flower', cursive;
+  line-height: 1.25;
+}
+
+section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 12vmin;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #525d2c;
+  margin: 0 auto;
+}
+
+.button {
+  /*Icons from forn awesome - these are actually fonts so we need to use font properties*/
+  font-size: 40px;
+  color: grey;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 650px) {
+  .button {
+    font-size: 20px;
+  }
+}
