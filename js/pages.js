@@ -18,23 +18,23 @@
 
 const pages = [{
     content: "Build Me Up Buttercup by The Foundations!",
-    circle: "#525d2c",
+    circle: "#BAF7B4",
     background: "linear-gradient(0deg, rgba(189, 255, 181, 1) 0%, rgba(252, 210, 134, 1) 100%)"
   },
   {
-    content: "Build Me Up Buttercup by The Foundations!",
-    circle: "#8b4000",
-    background: "linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)"
+    content: "Mr. Blue Sky by Electric Light Orchestra",
+    circle: "#ffffff",
+    background: "linear-gradient(0deg, rgba(255,255,255,1) 9%, rgba(9,9,121,1) 100%)"
   },
   {
-    content: "is based in Londons",
-    circle: "#5a130c",
-    background: "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%)"
+    content: "Wake Me up Before You Go-Go by Wham!",
+    circle: "#F7CC77",
+    background: "linear-gradient(0deg,  rgba(247,204,119,1) 0%, rgba(193,58,52,1)100%)"
   },
   {
-    content: `letting you <a href="cv.pdf">download her cv</a>`,
-    circle: "#660033",
-    background: "linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%)"
+    content: "Don't Stop Me Now by Queen",
+    circle: "#5B42D9",
+    background: "linear-gradient(0deg,rgba(88,44,217,1)  0%, rgba(195,34,149,1) 100%)"
   }
 ];
 
